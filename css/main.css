@@ -1,0 +1,75 @@
+
+*
+{
+    margin: 0;
+    padding: 0;
+}
+body
+{
+    height: 6000px;
+   
+}
+.navbar
+{
+    
+    background-color: black;
+    position: sticky;
+    top: 0;
+    
+}
+.contenier
+{
+    width: 70%;
+    margin: auto;
+}
+.navbar .contenier
+{
+    display: flex;
+    align-items: center;
+}
+
+.logo img
+{
+    width: 200px;
+    margin-top: 1.5px;
+
+}
+
+.navbar .list
+{
+    flex-grow: 1;
+}
+
+.list ul{
+    display: flex;
+    gap: 10px;
+    justify-content: flex-end;
+ 
+}
+.list ul 
+{
+    list-style-type: none;
+}
+
+.list ul li a{
+    text-decoration: none;
+    color: white;
+    text-transform: capitalize;
+}
+
+.hedar
+{
+    background-color:rgb(65, 63, 63);
+    color: darkgoldenrod;
+    height: 830px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.hedar-contenier
+{
+    background-color:white;
+    padding: 15px;
+    border-top: 5px black solid;
+    text-transform: capitalize;
+}
